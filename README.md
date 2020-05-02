@@ -9,7 +9,7 @@ Features:
 * Downloads and inserts Metadata (eg. Artist, Title, Albumtitle, Year)
 
 Uses the following dependancies, which have to be installed:
-
+youtube_dl, ffmpeg
 ```shell
 $ brew install youtube_dl
 $ brew install ffmpeg
