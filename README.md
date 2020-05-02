@@ -6,5 +6,5 @@ You can copy and paste the full youtube link and set your output folder in the s
 
 Uses the following dependancies, which have to be installed:
 
-youtube_dl
-ffmpeg
+* youtube_dl
+* ffmpeg
