@@ -6,7 +6,7 @@ You can copy and paste the full youtube link and set your output folder in the s
 
 Features:
 * Downloads and inserts Coverartwork
-* Downlaods and inserts Metadata (eg. Artist, Title, Albumtitle, Year)
+* Downloads and inserts Metadata (eg. Artist, Title, Albumtitle, Year)
 
 Uses the following dependancies, which have to be installed:
 
