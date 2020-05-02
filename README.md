@@ -15,7 +15,7 @@ $ brew install youtube_dl
 $ brew install ffmpeg
 ```
 
-***Tipp on Mac OS***
+**Tipp on Mac OS**
 
  to make the script executable on your desktop,
  rename:
@@ -30,3 +30,6 @@ yt2mp3.py to yt2mp3.command
  ```
  
  Now you can double click on the command file and it will start the script.
+ 
+ **DISCLAIMER**
+for educational purpose only. i'm not responsible for your actions 
