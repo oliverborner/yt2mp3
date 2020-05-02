@@ -1,4 +1,4 @@
-#!/bin/env python
+#!/usr/bin/env python
 # Requires: youtube_dl module
 # Requires: ffmpeg
 
@@ -9,14 +9,15 @@ import sys, os
 
 
 ydl_opts = {
-    'format': 'bestaudio/best',
-    'outtmpl': '/Users/oliver/Downloads/%(title)s.%(ext)s',  #set your output folder here
-    'postprocessors': [{
-        'key': 'FFmpegExtractAudio',
-        'preferredcodec': 'mp3',
-        'preferredquality': '192',
-    }],
-}
+'writethumbnail': True,
+'format': 'bestaudio/best',
+'outtmpl': '/Users/oliver/Music/Downloads/%(title)s.%(ext)s',  #set your output folder here
+'postprocessors': [
+{'key': 'FFmpegExtractAudio',
+'preferredcodec': 'mp3',
+'preferredquality': '192'},
+{'key': 'EmbedThumbnail',},]}
+
 
 #clear screen
 clear = lambda: os.system('clear')
