@@ -31,7 +31,7 @@ yt2mp3.py to yt2mp3.command
  chmod +x yt2mp3.command
  ```
  
- Now you can double click on the command file and it will start the script.
+ Now you can double click on the yt2mp3.command file and it will start the script.
  
  ---
  
