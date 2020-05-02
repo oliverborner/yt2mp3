@@ -17,7 +17,7 @@ $ brew install ffmpeg
 
 ***Tipp on Mac OS***
 
- To have the script as an executable file on your desktop in order to speed things up,
+ to make the script executable on your desktop,
  rename:
  ```shell
 yt2mp3.py to yt2mp3.command
