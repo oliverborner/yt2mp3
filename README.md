@@ -10,10 +10,10 @@ Features:
 
 Uses the following dependancies, which have to be installed:
 
->  youtube_dl
->  ffmpeg
+$ brew install youtube_dl
+$ brew install ffmpeg
 
-***Tipp***
+***Tipp on Mac OS***
 
  To have the script as an executable file on your desktop in order to speed things up,
  rename:
