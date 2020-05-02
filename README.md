@@ -10,9 +10,9 @@ You can copy and paste the full youtube link and set your output folder in the s
 
 ## Dependancies
 Uses the following dependancies, which have to be installed:
-[youtube_dl](https://github.com/ytdl-org/youtube-dl) and [ffmpeg](https://github.com/FFmpeg/FFmpeg)
+[youtube-dl](https://github.com/ytdl-org/youtube-dl) and [FFmpeg](https://github.com/FFmpeg/FFmpeg)
 ```shell
-$ brew install youtube_dl
+$ brew install youtube-dl
 $ brew install ffmpeg
 ```
 ---
