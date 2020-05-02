@@ -5,20 +5,20 @@ Simple python script to download and convert youtube videos to mp3.
 You can copy and paste the full youtube link and set your output folder in the script.
 
 
-**Features:**
+# Features
 * Downloads and inserts Coverartwork
 * Downloads and inserts Metadata (eg. Artist, Title, Albumtitle, Year)
 
-
+# Dependancies
 Uses the following dependancies, which have to be installed:
 **youtube_dl** and **ffmpeg**
 ```shell
 $ brew install youtube_dl
 $ brew install ffmpeg
 ```
+---
 
-
-**Tipp on Mac OS**
+# Tipp on MacOS**
 
  to make the script executable on your desktop,
  rename:
@@ -34,7 +34,7 @@ yt2mp3.py to yt2mp3.command
  
  Now you can double click on the command file and it will start the script.
  
+ ---
  
- 
- ***DISCLAIMER: 
-for educational purpose only. i'm not responsible for your actions or any copyright infringement due the usage of this script***
+# DISCLAIMER: 
+*for educational purpose only. i'm not responsible for your actions or any copyright infringement due the usage of this script*
