@@ -10,18 +10,23 @@ Features:
 
 Uses the following dependancies, which have to be installed:
 
+```shell
 $ brew install youtube_dl
 $ brew install ffmpeg
+```
 
 ***Tipp on Mac OS***
 
  To have the script as an executable file on your desktop in order to speed things up,
  rename:
- > yt2mp3.py to yt2mp3.command
+ ```shell
+yt2mp3.py to yt2mp3.command
+```
  
  then open your terminal and make the file 
  executable by setting admin rights to it: cd to Desktop and type: 
- 
- > chmod +x yt2mp3.command
+ ```shell
+ chmod +x yt2mp3.command
+ ```
  
  Now you can double click on the command file and it will start the script.
