@@ -9,14 +9,16 @@ import sys, os
 
 
 ydl_opts = {
-'writethumbnail': True,
-'format': 'bestaudio/best',
-'outtmpl': '/Users/oliver/Music/Downloads/%(title)s.%(ext)s',  #set your output folder here
-'postprocessors': [
-{'key': 'FFmpegExtractAudio',
-'preferredcodec': 'mp3',
-'preferredquality': '192'},
-{'key': 'EmbedThumbnail',},]}
+    'writethumbnail': True,
+    'format': 'bestaudio/best',
+    'outtmpl': '/Users/oliver/Music/Downloads/%(title)s.%(ext)s',  #set your output folder here
+    'postprocessors': [
+    {'key': 'FFmpegExtractAudio',
+    'preferredcodec': 'mp3',
+    'preferredquality': '192'},
+    {'key': 'EmbedThumbnail',},
+    {'key': 'FFmpegMetadata'},
+]}
 
 
 #clear screen
