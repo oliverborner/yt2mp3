@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # Requires: youtube_dl module
 # Requires: ffmpeg
+# by Oliver Kavalier 2020
 
 from __future__ import unicode_literals
 
